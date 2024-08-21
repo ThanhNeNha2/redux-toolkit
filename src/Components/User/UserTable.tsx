@@ -10,7 +10,7 @@ function UserTable() {
     dispatch(fetchUserById());
     // ddeer cai nayf k []
   }, []);
-  return <div>UserTable</div>;
+  return <div>{JSON.stringify(users)}</div>;
 }
 
 export default UserTable;
